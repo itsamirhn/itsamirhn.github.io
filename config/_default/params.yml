@@ -1,0 +1,9 @@
+env: development
+
+socialIcons:
+  - name: github
+    url: https://github.com/itsamirhn
+  - name: linkedin
+    url: https://linkedin.com/in/itsamirhn
+  - name: email
+    url: mailto:awmirhn+blog@gmail.com

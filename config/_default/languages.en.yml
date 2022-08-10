@@ -1,0 +1,12 @@
+languageName: ":en:"
+languageAltTitle: English
+title: AmirHN
+weight: 1
+profileMode:
+  enabled: true
+  title: AmirMohammad Hosseini Nasab
+  imageUrl: "https://avatars.githubusercontent.com/u/19665344?v=4"
+  imageTitle: Photo of AmirMohammad Hosseini Nasab
+  imageWidth: 250
+  imageHeight: 250
+  subtitle: Nothing for now...

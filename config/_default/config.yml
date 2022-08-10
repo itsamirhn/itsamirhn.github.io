@@ -1,0 +1,7 @@
+baseURL: http://amirhn.com/
+languageCode: en-us
+title: itsamirhn
+theme: PaperMod
+
+enableRobotsTXT: true
+enableEmoji: true
