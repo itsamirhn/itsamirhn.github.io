@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://itsamirhn.github.io/sitemap.xml
