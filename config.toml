@@ -1,5 +1,5 @@
 theme = "apollo"
-
+title = "itsamirhn"
 taxonomies = [{name = "tags"}]
 
 # The URL the site will be built for
@@ -18,7 +18,12 @@ highlight_code = true
 
 [extra]
 theme = "auto"
-menu = []
+fancy_code = true
+dynamic_note = true
+repo_url = "https://github.com/itsamirhn/itsamirhn.github.io"
+menu = [
+    { name = "/about", url = "/about", weight = 1 },
+]
 
 socials = [
     { name = "github", url = "https://github.com/itsamirhn/", icon = "github" },

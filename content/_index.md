@@ -1,6 +1,6 @@
 +++
-title= "Amir Hosseini"
+title= "Hey there!"
 template = "homepage.html"
 +++
 
-Nothing for now.
+Check out [/about](/about) to learn more about me.
