@@ -21,8 +21,10 @@ theme = "auto"
 menu = []
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/itsamirhn", icon = "twitter" },
     { name = "github", url = "https://github.com/itsamirhn/", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/itsamirhn/", icon = "linkedin" },
+    { name = "telegram", url = "https://t.me/itsamirhn", icon = "telegram" },
+    { name = "email", url = "mailto:awmirhn+website@gmail.com", icon = "email" },
 ]
 use_cdn = true
 mathjax = true
