@@ -34,3 +34,9 @@ socials = [
 use_cdn = true
 mathjax = true
 mathjax_dollar_inline_enable = true
+
+[extra.analytics]
+enabled = true
+
+[extra.analytics.goatcounter]
+user = "amirhn"
