@@ -22,7 +22,8 @@ fancy_code = true
 dynamic_note = true
 repo_url = "https://github.com/itsamirhn/itsamirhn.github.io"
 menu = [
-    { name = "/about", url = "/about", weight = 1 },
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/about", url = "/about", weight = 2 },
 ]
 
 socials = [
