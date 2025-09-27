@@ -1,22 +1,21 @@
-name: GitHub Pages
+name: Zola on GitHub Pages
 
 on:
   push:
     branches:
       - master
-  pull_request:
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build:
+    name: Publish site
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout master
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
-      - uses: shalzz/zola-deploy-action@master
+      - name: Build and deploy
+        uses: shalzz/zola-deploy-action@v0.21.0
         env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
